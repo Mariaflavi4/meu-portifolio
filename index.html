@@ -1,72 +1,103 @@
-<DOCTYPE html></DOCTYPE>
+<!DOCTYPE html>
 
-    <head>
-        <title> Meu Portifólio </title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    </head>
+<head>
+    <title>Meu Portfolio</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
 
-    <body>
-        <nav>
+<body>
+    <header>
+        <nav class="menu">
             <ul>
-                <li><a href="#portifólio>"> Portifólio </a></li>
-                <li><a href="#formação"> Formação </a></li>
-                <li><a href="#contato"> Contato </a></li>
+                <li><a href="https://www.minasprogramam.com">Formação</a></li>
+                <li><a href="#">Portfólio</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
         </nav>
-
-        <main>
-            <section>
-                <img src="img/maria.png.jpg" alt="Assistente de Dados" width="130" height="130">
-            </section>
-
-            <section>
-                <h1> Maria Flávia </h1>
-                <h2> Assistente de Dados </h2>
-            </section>
-
-            <section>
-                Assistente de Dados Junior com 23 anos, formada em Análise e Desenvolvimento de Sistemas.<br>Tenho uma sólida experiência na criação de dashboards utilizando Looker, elaboração de fórmulas complexas no Google Planilhas e desenvolvimento de relatórios detalhados.<br> Minha atuação se destaca pela capacidade de transformar dados brutos em insights estratégicos que orientam decisões empresariais. 
-            </section>
-
-            <section id="formação">
-                <h1> Formação </h1>
-            </section>
-
-            <section>
-                Faculdade: Fatec Ribeirão Preto <br>
-                Curso: Análise e Desenvolvimento de Sistemas <br>
-                Conclusão: Julho de 2024
-            </section>
-                
-            <section id="portfolio">
-                <h1> Portifólio </h1>
-            </section>
-
-            <section>
-                Desenvolvimento WEB <br>
-                Curso: Minas Programam <br>
-                Conclusão: Dezembro de 2024
-            </section>
-           
-            <section id="contato">
-                <h1> Contato </h1>
-            </section>
-
-            <section>
-                <i class="fas fa-envelope"></i> mariaflavia7352gmail.com <br>
-                <i class="fas fa-phone"></i> (16) 98209-xxxx <br>
-                <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/maria-fl%C3%A1via-da-silva-ribeiro-aa3019170/">Maria Flávia</a> <br>
-            </section>
-
-            <footer>
-                <p>&copy; 2024 Meu Portifólio </p>
-            </footer>
-
+        <main class="principal">
+            <article id="sobre">
+                <section>
+                    <img class="minha-imagem" src="img/maria.png.jpg" alt="">
+                </section>
+                <section>
+                    <h1 class="titulo">Maria Flávia</h1>
+                    <h2 class="subtitulo">Assistente de Dados</h2>
+                    <p class="primeiro-paragrafo"> Assistente de Dados Junior com 23 anos, formada em Análise e
+                        Desenvolvimento de Sistemas.
+                        Tenho uma sólida experiência na criação de dashboards utilizando Looker, elaboração de
+                        fórmulas complexas no Google Planilhas e desenvolvimento de relatórios detalhados. Minha atuação
+                        se destaca pela
+                        capacidade de transformar dados brutos em insights estratégicos que orientam decisões
+                        empresariais.</p>
+                </section>
+            </article>
         </main>
 
-    </body>
+        <section id="formacao">
+            <h2 class="titulo_formacao">Formação</h2>
+            <div class="conteudo_formacao">
+                <article class="info_formacao">
+                    <h3>Curso de Programação</h3>
+                    <span><a href="#">Instituto Minas Programam</a></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui voluptatibus maiores magnam, optio
+                        quas
+                        odit quisquam officiis, rem, nam aut delectus corporis aliquid ullam? Facere quae voluptates
+                        velit
+                        ullam possimus?</p>
+                </article>
+                <article class="info_formacao">
+                    <h3>Análise e Desenvolvimento de Sistemas</h3>
+                    <span><a href="#"> Faculdade: Fatec Ribeirão Preto</a></span>
+                    <p>Conclusão: Julho de 2024</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="portifolio">
+            <h1 class="titulo_portifolio">Portfólio</h1>
+            <div class="conteudo_portifolio">
+
+                <article class="info_portifolio">
+
+                    <p>Desenvolvimento WEB <br>
+                        <spam><a href="#">Curso: Minas Programam <br></a></spam>
+                        Conclusão: Dezembro de 2024
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <footer id="rodapé">
+            <div class="conteudo_rodape">
+
+                <div class="info_rodape">
+                    <img class="rodape_icon" src="img/Frame 20.png" alt="Icon Email">
+                    <spam> Mariaflavia735@gmail.com </spam>
+                </div>
+
+                <div class="info_rodape">
+                <img class="rodape_icon" src="img/Frame 21.png" alt="Icon linkedin">
+                <spam><a href="https://www.linkedin.com/in/maria-fl%C3%A1via-da-silva-ribeiro-aa3019170/">Maria
+                        Flávia</a></spam>
+            </div>
+
+            <div class="info_rodape">
+            <img class="rodape_icon" src="img/Vector.png" alt="Icon GitHub">
+            <spam><a href="https://github.com/Mariaflavi4">Mariaflavi4</a></spam>
+            </div>
+
+            </div>
+
+            <p>&copy; 2024 Meu Portfólio</p>
+        </footer>
+
+        </main>
+    </header>
+</body>
 
 </html>
-# meu-portifolio
-# meu-portifolio

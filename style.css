@@ -1,0 +1,146 @@
+body, nav, main {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu {
+    background-color: #938DF8;
+    padding: 30px 0;
+    text-align: end; /* coloca os itens no final da pagina */
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /* tira estilo de lista */
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.principal {
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #EDEAEA;
+}
+
+#sobre {
+    padding: 50px;
+    max-width: 600px;
+}
+
+.minha-imagem {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.titulo {
+   color: #938DF8; 
+   font-size: 36px;
+   font-weight: 700;
+}
+
+.subtitulo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.primeiro-paragrafo {
+    font-size: 16px;
+    line-height: 22.4px;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Formacao */
+
+#formacao {
+    background-color: #fff;
+    padding: 30px 80px;
+}
+
+.titulo_formacao {
+    color: #49BFB3;
+    font-size: 30px;
+}
+
+.conteudo_formacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_formacao {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Portifolio */
+
+#portifolio{
+    background-color: #EDEAEA;
+    padding: 30px 80px;
+}
+
+.titulo_contato{
+    color: #49BFB3;
+    font-size: 30px;
+}
+
+.conteudo_portifolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_portifolio{
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.info_portifolio h3{
+    color:#555;
+    font-size: 18px;
+}
+
+/* Rodapé */
+
+#rodapé{
+    background-color: #908af5;
+    padding: 30px 80px;
+    color: white;
+}
+
+.info_rodape spam a {
+    color: white;
+}
+
+.info_rodape{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.rodape_icon{
+    width: 20px;
+    margin: 10px;
+}
+
+
